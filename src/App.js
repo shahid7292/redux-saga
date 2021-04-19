@@ -12,7 +12,7 @@ function App() {
   const dispatch = useDispatch()
   return (
     <React.Fragment>
-      {isLogged && <h3>Valuable information only visible to users logged in</h3>}
+      {isLogged && <h3>Valuable information only logged user can See</h3>}
       <div className="App">
         <h1>count: {count}</h1>
         <button className="shah4" onClick={() => dispatch(increament(5))}>Increament</button>
